@@ -1,0 +1,153 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.0 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4016d88b: rcGetRate at ??:?
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+--- 0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x4016d888: rcGetRate at ??:?
+--- 0x4012738e: lmacRetryTxFrame at ??:?
+--- 0x4009402e: lmacEndFrameExchangeSequence at ??:?
+--- 0x401275d5: lmacProcessShortRetryFail at ??:?
+--- 0x401279cf: lmacProcessAckTimeout at ??:?
+--- 0x4016d82e: lmacProcessTxComplete at ??:?
+--- 0x40093894: ppTask at ??:?
+--- 0x4008b071: vPortTaskWrapper at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081c05: panic_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+--- 0x4008a555: esp_system_abort at C:/Users/emre/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b456: vApplicationStackOverflowHook at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
+--- 0x4008c797: vTaskSwitchContext at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
+--- 0x4008b560: _frxt_dispatch at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+--- 0x4008b512: _frxt_int_exit at C:/Users/emre/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Erişim engellendi.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0m

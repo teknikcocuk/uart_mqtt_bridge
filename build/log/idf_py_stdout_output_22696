@@ -1,0 +1,139 @@
+s0_drv:0x00,hd_drv:0x00el            Usage          Type ST Offset   Length
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) bo�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15716
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr  6 2025 16:45:28[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.0[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1fe90h (130704) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0002feb8 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=0002fedc vaddr=3ffb0000 size=0013ch (   316) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=a2170h (663920) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000d2198 vaddr=3ffb013c size=03e1ch ( 15900) load[0m
+[0;32mI (379) esp_image: segment 5: paddr=000d5fbc vaddr=40080000 size=18740h (100160) load[0m
+[0;32mI (429) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (429) boot: Disabling RNG early entropy source...[0m
+[0;32mI (440) cpu_start: Multicore app[0m
+[0;32mI (448) cpu_start: Pro cpu start user code[0m
+[0;32mI (448) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (448) app_init: Application information:[0m
+[0;32mI (448) app_init: Project name:     uart_mqtt_bridge[0m
+[0;32mI (453) app_init: App version:      1[0m
+[0;32mI (457) app_init: Compile time:     Apr  6 2025 16:45:11[0m
+[0;32mI (462) app_init: ELF file SHA256:  d4a1c0ace...[0m
+[0;32mI (466) app_init: ESP-IDF:          v5.4[0m
+[0;32mI (470) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (473) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (477) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (481) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (488) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (493) heap_init: At 3FFB87F8 len 00027808 (158 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (503) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (509) heap_init: At 40098740 len 000078C0 (30 KiB): IRAM[0m
+[0;32mI (516) spi_flash: detected chip: generic[0m
+[0;32mI (518) spi_flash: flash io: dio[0m
+[0;33mW (521) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (534) main_task: Started on CPU0[0m
+[0;32mI (544) main_task: Calling app_main()[0m
+[0;32mI (544) MAIN_APP: [APP] Startup..[0m
+[0;32mI (544) MAIN_APP: [APP] Free memory: 277188 bytes[0m
+[0;32mI (544) MAIN_APP: [APP] IDF version: v5.4[0m
+[0;32mI (574) MAIN_APP: Creating FreeRTOS Queues...[0m
+[0;32mI (574) MAIN_APP: Initializing LED Handler...[0m
+[0;32mI (574) LED_HANDLER: Initializing LED GPIO 2[0m
+[0;32mI (584) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (584) LED_HANDLER: LED control task started.[0m
+[0;32mI (594) LED_HANDLER: LED handler initialized and task started.[0m
+[0;32mI (594) MAIN_APP: Initializing WiFi...[0m
+[0;32mI (614) wifi:wifi driver task: 3ffc13a4, prio:23, stack:6656, core=0[0m
+[0;32mI (624) wifi:wifi firmware version: 48ea317a7[0m
+[0;32mI (624) wifi:wifi certification version: v7.0[0m
+[0;32mI (624) wifi:config NVS flash: enabled[0m
+[0;32mI (624) wifi:config nano formatting: disabled[0m
+[0;32mI (634) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (634) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (644) wifi:Init management short buffer num: 32[0m
+[0;32mI (644) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (654) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (654) wifi:Init static rx buffer num: 10[0m
+[0;32mI (654) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (664) wifi_init: rx ba win: 6[0m
+[0;32mI (664) wifi_init: accept mbox: 6[0m
+[0;32mI (664) wifi_init: tcpip mbox: 32[0m
+[0;32mI (674) wifi_init: udp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp tx win: 5760[0m
+[0;32mI (674) wifi_init: tcp rx win: 5760[0m
+[0;32mI (684) wifi_init: tcp mss: 1440[0m
+[0;32mI (684) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (684) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (744) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;33mW (824) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (914) wifi:mode : sta (a8:42:e3:8f:b3:fc)[0m
+[0;32mI (914) wifi:enable tsf[0m
+[0;32mI (914) WIFI_HANDLER: wifi_init_sta finished. Background connection attempts started.[0m
+[0;32mI (914) WIFI_HANDLER: WIFI_EVENT_STA_START: Trying to connect to AP 'YOUR_WIFI_SSID'...[0m
+[0;32mI (914) MAIN_APP: Initializing MQTT Client...[0m
+[0;32mI (924) MQTT_HANDLER: Device MAC Address: A8:42:E3:8F:B3:FC[0m
+[0;32mI (934) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (934) esp-tls: couldn't get hostname for :test.mosquitto.org: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (944) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (954) mqtt_client: Error transport connect[0m
+[1;31mE (954) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (954) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (964) MQTT_HANDLER: MQTT Publish Task Started.[0m
+[0;32mI (964) MQTT_HANDLER: MQTT client I (984) UART_HANDLER: Setting UART0 pins (TX:-1, RX:-1)...[0m
+[0;32mI (984) UART_HANDLER: Installing UART0 driver...[0m
+[0;32mI (984) UART_HANDLER: UART RX task started (Port 0).[0m
+[0;32mI (984) UART_HANDLER: UART TX task started.[0m
+[0;32mI (984) UART_HANDLER: UART handler initialized and tasks started.[0m
+[0;32mI (994) MAIN_APP: Main task finished initialization. Background tasks running.[0m
+[0;32mI (1004) main_task: Returned from app_main()[0m
+[0;33mW (3334) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m
+[0;33mW (10744) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m
+[0;32mI (15964) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (15964) esp-tls: couldn't get hostname for :test.mosquitto.org: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (15964) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (15964) mqtt_client: Error transport connect[0m
+[1;31mE (15974) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (15974) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (18154) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m
+[0;33mW (25564) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m
+[0;32mI (25984) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (25984) esp-tls: couldn't get hostname for :test.mosquitto.org: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (25984) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (25984) mqtt_client: Error transport connect[0m
+[1;31mE (25994) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (25994) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (32974) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m
+[0;32mI (36004) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (36004) esp-tls: couldn't get hostname for :test.mosquitto.org: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (36004) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (36004) mqtt_client: Error transport connect[0m
+[1;31mE (36014) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (36014) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;33mW (40384) WIFI_HANDLER: WIFI_EVENT_STA_DISCONNECTED: Lost connection to AP 'YOUR_WIFI_SSID'. Retrying...[0m

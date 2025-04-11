@@ -1,0 +1,404 @@
+s0_drv:0x00,hd_drv:0x00b�����           Usage          Type ST Offset   Length
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15716
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr  6 2025 16:45:28[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.0[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1fe90h (130704) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0002feb8 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=0002fedc vaddr=3ffb0000 size=0013ch (   316) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=a2170h (663920) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000d2198 vaddr=3ffb013c size=03e1ch ( 15900) load[0m
+[0;32mI (379) esp_image: segment 5: paddr=000d5fbc vaddr=40080000 size=18740h (100160) load[0m
+[0;32mI (429) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (429) boot: Disabling RNG early entropy source...[0m
+[0;32mI (440) cpu_start: Multicore app[0m
+[0;32mI (448) cpu_start: Pro cpu start user code[0m
+[0;32mI (448) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (448) app_init: Application information:[0m
+[0;32mI (448) app_init: Project name:     uart_mqtt_bridge[0m
+[0;32mI (453) app_init: App version:      1[0m
+[0;32mI (457) app_init: Compile time:     Apr  6 2025 16:45:11[0m
+[0;32mI (462) app_init: ELF file SHA256:  0baa3e0a3...[0m
+[0;32mI (466) app_init: ESP-IDF:          v5.4[0m
+[0;32mI (470) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (473) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (477) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (481) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (488) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (493) heap_init: At 3FFB87F8 len 00027808 (158 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (503) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (509) heap_init: At 40098740 len 000078C0 (30 KiB): IRAM[0m
+[0;32mI (516) spi_flash: detected chip: generic[0m
+[0;32mI (518) spi_flash: flash io: dio[0m
+[0;33mW (521) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (534) main_task: Started on CPU0[0m
+[0;32mI (544) main_task: Calling app_main()[0m
+[0;32mI (544) MAIN_APP: [APP] Startup..[0m
+[0;32mI (544) MAIN_APP: [APP] Free memory: 277188 bytes[0m
+[0;32mI (544) MAIN_APP: [APP] IDF version: v5.4[0m
+[0;32mI (574) MAIN_APP: Creating FreeRTOS Queues...[0m
+[0;32mI (574) MAIN_APP: Initializing LED Handler...[0m
+[0;32mI (574) LED_HANDLER: Initializing LED GPIO 2[0m
+[0;32mI (574) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (584) LED_HANDLER: LED control task started.[0m
+[0;32mI (594) LED_HANDLER: LED handler initialized and task started.[0m
+[0;32mI (594) MAIN_APP: Initializing WiFi...[0m
+[0;32mI (614) wifi:wifi driver task: 3ffc13a4, prio:23, stack:6656, core=0[0m
+[0;32mI (624) wifi:wifi firmware version: 48ea317a7[0m
+[0;32mI (624) wifi:wifi certification version: v7.0[0m
+[0;32mI (624) wifi:config NVS flash: enabled[0m
+[0;32mI (624) wifi:config nano formatting: disabled[0m
+[0;32mI (634) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (634) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (644) wifi:Init management short buffer num: 32[0m
+[0;32mI (644) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (654) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (654) wifi:Init static rx buffer num: 10[0m
+[0;32mI (654) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (664) wifi_init: rx ba win: 6[0m
+[0;32mI (664) wifi_init: accept mbox: 6[0m
+[0;32mI (664) wifi_init: tcpip mbox: 32[0m
+[0;32mI (674) wifi_init: udp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp tx win: 5760[0m
+[0;32mI (674) wifi_init: tcp rx win: 5760[0m
+[0;32mI (684) wifi_init: tcp mss: 1440[0m
+[0;32mI (684) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (684) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (694) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;33mW (784) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (864) wifi:mode : sta (a8:42:e3:8f:b3:fc)[0m
+[0;32mI (864) wifi:enable tsf[0m
+[0;32mI (864) WIFI_HANDLER: wifi_init_sta finished. Background connection attempts started.[0m
+[0;32mI (874) WIFI_HANDLER: WIFI_EVENT_STA_START: Trying to connect to AP 'gundogdu's_plus'...[0m
+[0;32mI (864) MAIN_APP: Initializing MQTT Client...[0m
+[0;32mI (884) wifi:new:<11,2>, old:<1,0>, ap:<255,255>, sta:<11,2>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (884) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (894) MQTT_HANDLER: Device MAC Address: A8:42:E3:8F:B3:FC[0m
+[0;32mI (894) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (904) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (904) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (914) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (914) mqtt_client: Error transport connect[0m
+[1;31mE (924) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (924) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (904) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (934) MQTT_HANDLER: MQTT Publish Task Started.[0m
+[0;32mI (934) MQTT_HANDLER: MQTT client initialized and task started.[0m
+[0;32mI (944) MAIN_APP: Initializing UART Handler...[0m
+[0;32mI (944) UART_HANDLER: Configuring UART2...[0m
+[0;32mI (954) UART_HANDLER: Setting UART2 pins (TX:17, RX:16)...[0m
+[0;32mI (954) UART_HANDLER: Installing UART2 driver...[0m
+[0;32mI (964) UART_HANDLER: UART RX task started (Port 2).[0m
+[0;32mI (964) UART_HANDLER: UART TX task started.[0m
+[0;32mI (964) UART_HANDLER: UART handler initialized and tasks started.[0m
+[0;32mI (974) MAIN_APP: Main task finished initialization. Background tasks running.[0m
+[0;32mI (984) main_task: Returned from app_main()[0m
+[0;32mI (1064) UART_HANDLER: UART Received 1 bytes: '�'[0m
+[1;31mE (1064) UART_HANDLER: Failed to parse JSON: �
+[0;32mI (1144) wifi:connected with gundogdu's_plus, aid = 5, channel 11, 40D, bssid = 9c:9d:7e:22:32:79[0m
+[0;32mI (1154) wifi:security: WPA2-PSK, phy: bgn, rssi: -73[0m
+[0;32mI (1154) wifi:pm start, type: 1[0m
+
+[0;32mI (1154) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1164) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3404) esp_netif_handlers: sta ip: 192.168.1.128, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (3404) WIFI_HANDLER: IP_EVENT_STA_GOT_IP: Got IP:192.168.1.128[0m
+[0;32mI (10934) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[0;32mI (10944) wifi:<ba-add>idx:0 (ifx:0, 9c:9d:7e:22:32:79), tid:0, ssn:3, winSize:64[0m
+[0;32mI (12034) MQTT_HANDLER: MQTT_EVENT_CONNECTED to mqtt://mqtt.eclipseprojects.io[0m
+[0;32mI (12034) MQTT_HANDLER: Subscribing to topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (12034) MQTT_HANDLER: Sent subscribe successful, msg_id=19681[0m
+[0;32mI (70804) wifi:<ba-add>idx:1 (ifx:0, 9c:9d:7e:22:32:79), tid:7, ssn:0, winSize:64[0m
+[0;32mI (127944) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (127944) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (127944) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (127954) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (127954) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (135734) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (135734) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (135734) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (135734) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (135744) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (140234) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (140234) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (140234) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (140234) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (140244) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (143114) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (143114) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (143114) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (143114) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (143124) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (145664) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (145664) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (145664) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (145664) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (145674) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (313794) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (313804) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (313804) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (313804) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (313814) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (328554) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (328554) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (328554) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (328554) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (328564) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (338784) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (338784) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (338784) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (338794) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (338794) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (340254) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (340254) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (340254) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (340254) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (340264) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+[0;32mI (341964) MQTT_HANDLER: MQTT_EVENT_DATA[0m
+[0;32mI (341964) MQTT_HANDLER: Topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (341964) MQTT_HANDLER: Data: {[0m
+  "msg": "hello"
+}
+[0;32mI (341964) UART_HANDLER: Received payload from MQTT queue: '{[0m
+  "msg": "hello"
+}'
+[0;32mI (341974) UART_HANDLER: Sent to UART: MQTT Data: {[0m
+  "msg": "hello"
+}
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15716
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr  6 2025 16:45:28[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.0[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1fe90h (130704) map[0m
+I (134) esp_image: segment 1: paddr=0002feb8 vaddr=3ff80000 size=0001ch (    28) load
+[0;32mI (135) esp_image: segment 2: paddr=0002fedc vaddr=3ffb0000 size=0013ch (   316) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=a2170h (663920) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000d2198 vaddr=3ffb013c size=03e1ch ( 15900) load[0m
+[0;32mI (379) esp_image: segment 5: paddr=000d5fbc vaddr=40080000 size=18740h (100160) load[0m
+[0;32mI (429) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (429) boot: Disabling RNG early entropy source...[0m
+[0;32mI (440) cpu_start: Multicore app[0m
+[0;32mI (448) cpu_start: Pro cpu start user code[0m
+[0;32mI (448) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (448) app_init: Application information:[0m
+[0;32mI (448) app_init: Project name:     uart_mqtt_bridge[0m
+[0;32mI (453) app_init: App version:      1[0m
+[0;32mI (457) app_init: Compile time:     Apr  6 2025 16:45:11[0m
+[0;32mI (462) app_init: ELF file SHA256:  0baa3e0a3...[0m
+[0;32mI (466) app_init: ESP-IDF:          v5.4[0m
+[0;32mI (470) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (473) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (477) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (481) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (488) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (493) heap_init: At 3FFB87F8 len 00027808 (158 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (503) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (509) heap_init: At 40098740 len 000078C0 (30 KiB): IRAM[0m
+[0;32mI (516) spi_flash: detected chip: generic[0m
+[0;32mI (518) spi_flash: flash io: dio[0m
+[0;33mW (521) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (534) main_task: Started on CPU0[0m
+[0;32mI (544) main_task: Calling app_main()[0m
+[0;32mI (544) MAIN_APP: [APP] Startup..[0m
+[0;32mI (544) MAIN_APP: [APP] Free memory: 277188 bytes[0m
+[0;32mI (544) MAIN_APP: [APP] IDF version: v5.4[0m
+[0;32mI (574) MAIN_APP: Creating FreeRTOS Queues...[0m
+[0;32mI (574) MAIN_APP: Initializing LED Handler...[0m
+[0;32mI (574) LED_HANDLER: Initializing LED GPIO 2[0m
+[0;32mI (584) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (584) LED_HANDLER: LED control task started.[0m
+[0;32mI (594) LED_HANDLER: LED handler initialized and task started.[0m
+[0;32mI (594) MAIN_APP: Initializing WiFi...[0m
+[0;32mI (614) wifi:wifi driver task: 3ffc13a4, prio:23, stack:6656, core=0[0m
+[0;32mI (624) wifi:wifi firmware version: 48ea317a7[0m
+[0;32mI (624) wifi:wifi certification version: v7.0[0m
+[0;32mI (624) wifi:config NVS flash: enabled[0m
+[0;32mI (624) wifi:config nano formatting: disabled[0m
+[0;32mI (634) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (634) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (644) wifi:Init management short buffer num: 32[0m
+[0;32mI (644) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (654) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (654) wifi:Init static rx buffer num: 10[0m
+[0;32mI (654) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (664) wifi_init: rx ba win: 6[0m
+[0;32mI (664) wifi_init: accept mbox: 6[0m
+[0;32mI (664) wifi_init: tcpip mbox: 32[0m
+[0;32mI (674) wifi_init: udp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp mbox: 6[0m
+[0;32mI (674) wifi_init: tcp tx win: 5760[0m
+[0;32mI (674) wifi_init: tcp rx win: 5760[0m
+[0;32mI (684) wifi_init: tcp mss: 1440[0m
+[0;32mI (684) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (684) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (694) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;33mW (774) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (804) wifi:mode : sta (a8:42:e3:8f:b3:fc)[0m
+[0;32mI (804) wifi:enable tsf[0m
+[0;32mI (814) WIFI_HANDLER: wifi_init_sta finished. Background connection attempts started.[0m
+[0;32mI (814) WIFI_HANDLER: WIFI_EVENT_STA_START: Trying to connect to AP 'gundogdu's_plus'...[0m
+[0;32mI (814) MAIN_APP: Initializing MQTT Client...[0m
+[0;32mI (824) wifi:new:<11,2>, old:<1,0>, ap:<255,255>, sta:<11,2>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (834) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (834) MQTT_HANDLER: Device MAC Address: A8:42:E3:8F:B3:FC[0m
+[0;32mI (844) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[1;31mE (844) esp-tls: couldn't get hostname for :mqtt.eclipseprojects.io: getaddrinfo() returns 202, addrinfo=0x0[0m
+[1;31mE (854) transport_base: Failed to open a new connection: 32769[0m
+[1;31mE (854) mqtt_client: Error transport connect[0m
+[1;31mE (864) MQTT_HANDLER: MQTT_EVENT_ERROR[0m
+[0;33mW (864) MQTT_HANDLER: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (844) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (874) MQTT_HANDLER: MQTT Publish Task Started.[0m
+[0;32mI (874) MQTT_HANDLER: MQTT client initialized and task started.[0m
+[0;32mI (874) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (884) MAIN_APP: Initializing UART Handler...[0m
+[0;32mI (894) UART_HANDLER: Configuring UART2...[0m
+[0;32mI (894) UART_HANDLER: Setting UART2 pins (TX:17, RX:16)...[0m
+[0;32mI (894) UART_HANDLER: Installing UART2 driver...[0m
+[0;32mI (904) UART_HANDLER: UART RX task started (Port 2).[0m
+[0;32mI (904) UART_HANDLER: UART TX task started.[0m
+[0;32mI (914) UART_HANDLER: UART handler initialized and tasks started.[0m
+[0;32mI (914) MAIN_APP: Main task finished initialization. Background tasks running.[0m
+[0;32mI (924) main_task: Returned from app_main()[0m
+[0;32mI (1094) wifi:connected with gundogdu's_plus, aid = 5, channel 11, 40D, bssid = 9c:9d:7e:22:32:79[0m
+[0;32mI (1094) wifi:security: WPA2-PSK, phy: bgn, rssi: -70[0m
+[0;32mI (1094) wifi:pm start, type: 1[0m
+
+[0;32mI (1094) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1144) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (4314) esp_netif_handlers: sta ip: 192.168.1.128, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4314) WIFI_HANDLER: IP_EVENT_STA_GOT_IP: Got IP:192.168.1.128[0m
+[0;32mI (10874) MQTT_HANDLER: MQTT_EVENT_BEFORE_CONNECT[0m
+[0;32mI (10894) wifi:<ba-add>idx:0 (ifx:0, 9c:9d:7e:22:32:79), tid:0, ssn:4, winSize:64[0m
+[0;32mI (11204) wifi:<ba-add>idx:1 (ifx:0, 9c:9d:7e:22:32:79), tid:7, ssn:0, winSize:64[0m
+[0;32mI (12324) MQTT_HANDLER: MQTT_EVENT_CONNECTED to mqtt://mqtt.eclipseprojects.io[0m
+[0;32mI (12324) MQTT_HANDLER: Subscribing to topic: sub/data/A8:42:E3:8F:B3:FC[0m
+[0;32mI (12334) MQTT_HANDLER: Sent subscribe successful, msg_id=55832[0m
+[0;32mI (1557804) UART_HANDLER: UART Received 31 bytes: '{"topic":"asd","payload":"xyz"}'[0m
+[0;32mI (1557804) MQTT_HANDLER: Publishing - Topic: 'pub/data/asd', Payload: 'xyz'[0m
+[0;32mI (1557804) MQTT_HANDLER: Publish successful, msg_id=60883[0m
+[0;32mI (1563774) UART_HANDLER: UART Received 31 bytes: '{"topic":"asd","payload":"xyz"}'[0m
+[0;32mI (1563774) MQTT_HANDLER: Publishing - Topic: 'pub/data/asd', Payload: 'xyz'[0m
+[0;32mI (1563774) MQTT_HANDLER: Publish successful, msg_id=59811[0m
+[0;32mI (1566474) UART_HANDLER: UART Received 31 bytes: '{"topic":"asd","payload":"xyz"}'[0m
+[0;32mI (1566474) MQTT_HANDLER: Publishing - Topic: 'pub/data/asd', Payload: 'xyz'[0m
+[0;32mI (1566474) MQTT_HANDLER: Publish successful, msg_id=20055[0m
+[0;32mI (1613764) UART_HANDLER: UART Received 31 bytes: '{"topic":"asd","payload":"xyz"}'[0m
+[0;32mI (1613764) MQTT_HANDLER: Publishing - Topic: 'pub/data/asd', Payload: 'xyz'[0m
+[0;32mI (1613764) MQTT_HANDLER: Publish successful, msg_id=63949[0m
+[0;32mI (1616164) UART_HANDLER: UART Received 31 bytes: '{"topic":"asd","payload":"xyz"}'[0m
+[0;32mI (1616164) MQTT_HANDLER: Publishing - Topic: 'pub/data/asd', Payload: 'xyz'[0m
+[0;32mI (1616164) MQTT_HANDLER: Publish successful, msg_id=22319[0m
